@@ -466,7 +466,7 @@ body.dark .last-proyects-container {
   text-align: left;
   margin-bottom: 1rem;
   font-size: 2.5rem;
-  color: var(--size-900);
+
 }
 
 .last-proyects-container-fluid__description {
@@ -678,14 +678,26 @@ body.dark .filter-title {
 }
 
 .cards-filter__card {
+  cursor: pointer;
+  
+}
+
+.cards-filter__card img:hover {
+  opacity: .7;
   transition: all 0.3s ease-out;
+  border: 2px solid var(--secondary-color);
 }
 
 .cards-filter__figcaption {
+  color: var(--text-color);
   font-weight: var(--size-700);
   margin: 1rem 0;
   font-size: 2.5rem;
   text-align: center;
+}
+
+body.dark .cards-filter__figcaption {
+  color: var(--text-color-night);
 }
 
 .cards-filter__icon {
@@ -703,6 +715,14 @@ body.dark .filter-title {
 .cards-filter__container-icon--icon {
   color: var(--secondary-color);
   text-decoration: none;
+}
+
+body.dark .cards-filter__container-icon--icon {
+  color: var(--text-color-night);
+}
+
+body.dark .overlay__description {
+  color: var(--text-color);
 }
 
 .cards-filter__container-icon--icon:hover {

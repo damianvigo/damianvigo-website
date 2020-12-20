@@ -71,3 +71,16 @@ body.dark header.sticky {
 .text-right {
   text-align: end;
 }
+
+.search-container {
+  display: flex;
+  flex-direction: column;
+  height: 300px;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-filter {
+  margin-bottom: 6rem;
+  padding-bottom: 8rem;
+}

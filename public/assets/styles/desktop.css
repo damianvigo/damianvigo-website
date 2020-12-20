@@ -30,3 +30,7 @@
   margin: 0 auto;
   width: 50%;
 }
+
+.container-card {
+  max-width: var(--container-lg);
+}

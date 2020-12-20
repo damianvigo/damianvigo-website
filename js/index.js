@@ -11,8 +11,8 @@ const w = window;
 d.addEventListener('DOMContentLoaded', (e) => {
   darkMode('#switch');
   stickyFooter('.header');
-  scrollTopButton('.scroll-top-btn');
   searchFilters('.card-filter-input', '.cards-filter__card')
+  scrollTopButton('.scroll-top-btn');
 });
 
 hamburguerMenu('.panel-btn', '.panel', '.panel__menu-a');
