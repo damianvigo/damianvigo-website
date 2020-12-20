@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Porfolio Damian Vigo</title>
+  <sergey-import src="head/links" />
+</head>
+
+<body id='top'>
+  <sergey-import src="components/header" />
+  <sergey-import src="components/buttons" />
+  <main>
+    <section class="hero-image">
+      <div class="hero-image__transparent">
+        <div class="hero-image__perfil">
+          <h1 class="hero-image__title">Hola, soy Damián Vigo</h1>
+          <h2 class="hero-image__subtitle">Desarrollador Web</h2>
+          <figure class="hero-image__img-perfil">
+            <img class="hero-image__img-perfil--img" src="./assets/img/seleccionada-yo-compress.jpg"
+              alt="imagen retrato de Damián Vigo" title="Retrato Damian Vigo" />
+          </figure>
+        </div>
+      </div>
+    </section>
+    <section id="sobre-mi" class="perfil">
+      <h2 class="perfil__title-me">¿Quién Soy?</h2>
+      <article class="perfil__description-me">
+        <p class="perfil__text-me">¡Hola! 👋 <br /> <strong>Me llamo Damián Vigo y soy Frontend Developer de Buenos
+            Aires Argentina.</strong><br />
+          Estoy especializado en el desarrollo web de tecnologías Javascript.
+          Brindo soluciones para que tu negocio sea efectivo online ¿Te animas?
+      </article>
+    </section>
+    <div class="cite-container">
+      <article class="cite-container__cite">
+        <h2 class="cite-container__davinci">
+          « La simplicidad es la máxima sofisticación » <cite>Leonardo Da Vinci</cite>
+        </h2>
+      </article>
+    </div>
+    <section class="last-proyects">
+      <h2 class="last-proyects__primary-title">Ultimos Proyectos</h2>
+      <section class="last-proyects-container">
+        <article class="last-proyects-container-fluid">
+          <h2 class="last-proyects-container-fluid__title">React</h2>
+          <p class="last-proyects-container-fluid__description">Una progressive web app donde encontrarás fotos de
+            animales muy bonitos. Desarrollado con React JS - reach router - react helmet - graphQL - react apollo</p>
+        </article>
+        <article class="last-proyects-container-fluid">
+          <a class="last-proyects-container-fluid-link" href="https://petgram.damianvigo.vercel.app/" target="_blank"
+            rel="noopener">
+            <figure class="last-proyects-container-fluid__figure">
+              <img class="last-proyects-container-fluid__img" src="./assets/img/petgram.jpg"
+                alt="Red social de animales llamada Petgram" title="Petgram" loading="lazy" />
+            </figure>
+          </a>
+        </article>
+
+        <article class="last-proyects-container-fluid flex-order">
+          <h2 class="last-proyects-container-fluid__title text-right">Maquetación</h2>
+          <p class="last-proyects-container-fluid__description text-right">El 50% del tráfico en internet se realiza
+            desde dispositivos móviles, convirtiendo una prioridad desarrollar para smartphones, tablets y laptops.
+            Desde el wireframe a mobile first con buenas prácticas.</p>
+        </article>
+        <article class="last-proyects-container-fluid">
+          <a class="last-proyects-container-fluid-link" href="https://damian-vigo-batatabit.vercel.app/" target="_blank"
+            rel="noopener">
+            <figure class="last-proyects-container-fluid__figure">
+              <img class="last-proyects-container-fluid__img" src="./assets/img/batatabit.jpg"
+                alt="pagina web batatabit" title="batatabit" loading="lazy" />
+            </figure>
+          </a>
+        </article>
+      </section>
+    </section>
+    <button class="container-button">
+      <a href="./pages/proyects.html" class="button">
+        No presionar
+      </a>
+    </button>
+  </main>
+  <sergey-import src="components/footer" />
+  <script src="https://kit.fontawesome.com/e36e673736.js" crossorigin="anonymous"></script>
+  <script src="./js/index.js" type="module"></script>
+</body>
+
+</html>

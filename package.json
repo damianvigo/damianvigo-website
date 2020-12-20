@@ -1,0 +1,15 @@
+{
+  "name": "porfolio-sergey",
+  "version": "1.0.0",
+  "description": "Porfolio Damian Vigo",
+  "main": "index.js",
+  "scripts": {
+    "dev": "sergey --watch",
+    "start": "sergey"
+  },
+  "author": "Damian Vigo <damiandanielvigo@gmail.com> (https://damianvigo.com)",
+  "license": "MIT",
+  "dependencies": {
+    "sergey": "0.0.13"
+  }
+}
