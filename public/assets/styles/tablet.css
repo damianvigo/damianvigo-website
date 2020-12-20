@@ -13,19 +13,11 @@
 
 body.dark header.sticky {
   background-color: var(--text-color-night);
-  color: var(--text-color);
+  color: var(--primary-color);
 }
 
 .sticky {
   background-color: var(--secondary-color);
-}
-
-body.dark header.sticky .header__menu-a {
-  color: var(--secondary-color);
-}
-
-body.dark header.sticky .header__logo {
-  color: var(--secondary-color);
 }
 
 .header__menu-ul {

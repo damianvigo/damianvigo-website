@@ -242,7 +242,12 @@ img {
 .sticky {
   transition: .3s all ease;
   background-color: var(--secondary-color);
+  color: #fff;
   z-index: 997;
+}
+
+body.dark .header.sticky {
+  background-color: var(--text-color);
 }
 
 .header__logo {
@@ -540,8 +545,10 @@ body.dark .button {
 .proyects-title__h1 {
   margin: 4rem 0;
   font-size: 4.2rem;
-  color: var(--text-color);
-  font-weight: var(--size-900);
+}
+
+body.dark h1 {
+  color: var(--text-color-night);
 }
 
 .grid-fluid {
@@ -561,8 +568,37 @@ body.dark .button {
   height: auto;
   margin: 2rem auto;
   border: 1px solid #1f1f1f;
-  border-radius: 4px;
+  border-radius: 5px;
   text-align: right;
+  background-color: var(--background-color);
+}
+
+body.dark .card {
+  background-color: var(--text-color);
+  color: var(--text-color-night);
+}
+
+body.dark .card-title {
+  color: var(--primary-color);
+}
+
+.card-code {
+  text-decoration: none;
+  transition: .3s all ease-in-out;
+}
+
+.card-code:hover {
+  text-decoration: underline;
+}
+
+body.dark .card-code {
+  transition: .3s all ease-in-out;
+  color: var(--primary-color);
+  
+}
+
+body.dark .card-code:hover {
+  
 }
 
 .card__card-figure:hover {
@@ -573,6 +609,7 @@ body.dark .button {
 .card-title {
   text-align: start;
   padding: 1.5rem;
+  font-size: 1.8rem;
   color: var(--text-color);
   font-weight: var(--size-900);
 }
@@ -615,6 +652,10 @@ body.dark .button {
   color: var(--text-color);
   font-size: 3.5rem;
   margin-bottom: 4rem;
+}
+
+body.dark .filter-title {
+  color: var(--primary-color);
 }
 
 .card-filter-input {
