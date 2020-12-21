@@ -84,3 +84,23 @@ body.dark header.sticky {
   margin-bottom: 6rem;
   padding-bottom: 8rem;
 }
+
+.cites {
+  width: 100%;
+  min-width: 320px;
+  max-width: var(--container-md);
+  margin: 0 auto;
+  padding: 5rem 0;
+}
+
+.notes-container__figcaption {
+  display: flex;
+  width: 100%;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.notes-container__span {
+  margin-left: 2rem;
+}

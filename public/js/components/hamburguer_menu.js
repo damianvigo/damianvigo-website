@@ -17,9 +17,9 @@ export default function hamburguerMenu(panelBtn, panel, menuLink) {
   w.addEventListener('DOMContentLoaded', (e) => {
     const $btnResponsive = d.querySelector(panelBtn);
 
-    const { clientWidth } = d.documentElement;
+    const { outerWidth } = w
 
-    if (clientWidth < 768) {
+    if (outerWidth < 768) {
       $btnResponsive.classList.remove('hidden');
     } else {
       $btnResponsive.classList.add('hidden');

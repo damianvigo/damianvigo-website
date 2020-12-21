@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notas</title>
+  <link rel="icon" href="../assets/favicon/favicon.ico" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" />
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+<link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700;900&display=swap" rel="stylesheet" />
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.1.3/hamburgers.min.css" />
+<link rel="stylesheet" href="../assets/styles/styles.css" />
+<link rel="stylesheet" href="../assets/styles/tablet.css" media="(min-width: 800px)" />
+<link rel="stylesheet" href="../assets/styles/desktop.css" media="(min-width: 1200px)" />
+</head>
+<body>
+  <header class="header">
+  <a href="../../index.html" class="header__logo">DV</a>
+  <nav class="haeder__menu">
+    <ul class="header__menu-ul">
+      <li class="header__menu-li"><a class="header__menu-a" href="../../pages/proyectos.html">Proyectos</a></li>
+      <li class="header__menu-li"><a class="header__menu-a" href="../../pages/notas.html">Notas</a></li>
+      <li class="header__menu-li"><a class="header__menu-a" href="../../pages/contacto.html">Hablemos</a></li>
+    </ul>
+  </nav>
+  <button class="switch" id="switch">
+    <span class="switch__span"><i class="fas fa-sun switch__icon--sun"></i></span>
+    <span class="switch__span"><i class="fas fa-moon switch__icon--moon"></i></span>
+  </button>
+</header>
+  <aside class="panel">
+  <nav class="panel__menu">
+    <a class="panel__menu-a" href="../pages/proyectos.html">Proyectos</a>
+    <a class="panel__menu-a" href="../pages/notes.html">Notas</a>
+    <a class="panel__menu-a" href="../pages/contacto.html">Hablemos</a>
+  </nav>
+</aside>
+
+<button class="panel-btn hamburger hamburger--vortex" type="button">
+  <span class="hamburger-box">
+    <span class="hamburger-inner"></span>
+  </span>
+</button>
+
+<button class="scroll-top-btn hidden"><i class="far fa-hand-pointer"></i></button>
+
+<section class="overlay" id="overlay">
+  <div class="overlay__container-img">
+    <button id="btn-cerrar-popup"><i class="fas fa-times"></i></button>
+    <img class="overlay__img" src="" alt="overlay">
+  </div>
+  <p class="overlay__description"></p>
+</section>
+  <div class="fix-sticky"></div>
+  <main class="notes">
+    <h1 class="notes__title">Notas</h1>
+    <h2 class="notes__subtitle">En esta seccion encontraras notas sobre mis intereses personales, tales como filosofia de vida, estoicismo, minimalismo y todo lo que considere contenido de valor</h2>
+    <section class="notes-container">
+      <a class="notes-container__a" href="../pages/citas.html">
+        <figure class="notes-container__figure">
+          <img class="notes-container__img" src="../assets/icon/download.png" alt="">
+          <figcaption class="notes-container__figcaption">
+            <span class="notes-container__span">Citas</span>
+            <time datetime=2020-12-21 class="notes-container__time">Dic 21 2020</time>
+          </figcaption>
+        </figure>
+      </a>
+    </section>
+  </main>
+ <!--  <footer class="footer">
+  <section class="footer__social-network">
+    <div class="footer__container-icon">
+      <a href="https://www.facebook.com/ddamianvigo" target="_blank" rel="noopener" class="footer__fb">
+        <i class="fab fa-facebook footer__icon"></i>
+      </a>
+    </div>
+    <div class="footer__container-icon">
+      <a href="https://platzi.com/@Damian" target="_blank" rel="noopener" class="footer__platzi">
+        <i class="fas fa-graduation-cap footer__icon"></i>
+      </a>
+    </div>
+    <div class="footer__container-icon">
+      <a href="https://github.com/damianvigo" target="_blank" rel="noopener" class="footer__github">
+        <i class="fab fa-github footer__icon"></i>
+      </a>
+    </div>
+  </section>
+  <div class="footer__author">
+    <p>Damián Vigo &copy; 2020</p>
+  </div>
+</footer> -->
+  
+  <script src="https://kit.fontawesome.com/e36e673736.js" crossorigin="anonymous"></script>
+  <script src="../js/index.js" type="module"></script>
+</body>
+</html>

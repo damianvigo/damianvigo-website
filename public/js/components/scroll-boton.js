@@ -3,7 +3,7 @@ const d = document,
 
 export default function scrollTopButton(btn) {
   const $scrollBtn = d.querySelector(btn);
-  const { outerWidth } = window
+  const { outerWidth } = w
 
   w.addEventListener('scroll', (e) => {
     let scrollTop = w.pageYOffset || d.documentElement.scrollTop;
