@@ -24,6 +24,8 @@
   --container-lg: 1200px;
   --container-md: 992px;
   --container-sm: 500px;
+  --form-ok-color: #4caf50;
+  --form-error-color: #f44336;
 }
 
 * {
@@ -64,6 +66,10 @@ img {
 .hidden {
   visibility: hidden;
   opacity: 0;
+}
+
+.none {
+  display: none;
 }
 
 .filter {
@@ -597,10 +603,6 @@ body.dark .card-code {
   
 }
 
-body.dark .card-code:hover {
-  
-}
-
 .card__card-figure:hover {
   transition: opacity .3s;
   opacity: 0.7;
@@ -673,13 +675,13 @@ body.dark .filter-title {
 }
 
 ::placeholder {
+  font-family: var(--font-rale);
   color: var(--text-color-night);
   text-align: center;
 }
 
 .cards-filter__card {
   cursor: pointer;
-  
 }
 
 .cards-filter__card img:hover {
@@ -733,9 +735,140 @@ body.dark .overlay__description {
   font-size: 3rem;
 }
 
+/* Contacto */
+.contact {
+  text-align: center;
+  margin-top: 12.5rem;
+}
+.contact__title {
+  font-size: 4.2rem;
+  margin-bottom: 3.125rem;
+}
 
+body.dark .contact__title  {
+  color: var(--text-color-night);
+}
 
+.form-background {
+  background-image: url('../img/contact-me.jpg');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 100vw;
+  height: 100vh;
+  min-width: 320px;
+}
 
+.form-background__transparent {
+  min-height: inherit;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Contacto - Validacion - Formulario */
+.contact-form {
+  padding: 4rem;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  max-width: var(--container-sm);
+}
+
+.contact-form > * {
+  padding: 0.5rem;
+  margin: 1rem auto;
+  margin-top: 4rem;
+  display: block;
+  width: 100%;
+  outline: none;
+}
+
+.contact-form__text {
+  background-color: var(--secondary-color);
+  color: var(--text-color-night);
+  height: 5rem;
+}
+
+.contact-form textarea {
+  resize: none;
+}
+
+.contact-form__response {
+  font-size: 1.8rem;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.contact-form input,
+.contact-form textarea {
+  font-size: 1.8rem;
+}
+
+.contact-form input[type='submit'] {
+  max-width: 30%;
+  border: 0;
+  background: #34495e;
+  color: var(--primary-color);
+  border-radius: 2rem;
+  cursor: pointer;
+  transition: 0.5s;
+  padding: 1rem;
+}
+
+.contact-form input[type='submit']:hover {
+  background-color: #367edf;
+}
+
+.contact-form *::placeholder {
+  text-align: start;
+  font-family: var(--font-rale);
+  color: var(--primary-color);
+}
+
+.contact-form [required]:valid {
+  border: thin solid var(--form-ok-color);
+}
+
+.contact-form [required]:invalid {
+  border: thin solid var(--form-error-color);
+}
+
+.contact-form__loader {
+  margin: 3.125em 0;
+}
+
+.contact-form-error {
+  margin-top: -1rem;
+  font-size: 1.7rem;
+  background-color: var(--form-error-color);
+  color: var(--primary-color);
+  transition: all 800ms ease;
+}
+
+.contact-form-error.is-active {
+  display: block;
+  animation: show-message 1s 1 normal 0s ease-out both;
+}
+
+.none {
+  display: none;
+}
+
+@keyframes show-message {
+  0% {
+    visibility: hidden;
+    opacity: 0;
+  }
+
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
+}
 
 
 
