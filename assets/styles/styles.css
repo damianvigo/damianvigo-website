@@ -397,6 +397,19 @@ body.dark .perfil__title-me {
   margin: 1rem 0;
 }
 
+/* Tecnologias */
+.perfil__icons__figure--svg {
+  width: 5rem;
+  height: 5rem;
+}
+
+.perfil__icons__figure {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  margin: 0;
+}
+
 /* Cita */
 .cite-container {
   width: 100%;
