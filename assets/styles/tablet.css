@@ -104,3 +104,14 @@ body.dark header.sticky {
 .notes-container__span {
   margin-left: 2rem;
 }
+
+.perfil__icons {
+  margin-bottom: 3rem;
+}
+
+.perfil__icons__figure {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  min-width: 320px;
+}

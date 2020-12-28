@@ -401,13 +401,20 @@ body.dark .perfil__title-me {
 .perfil__icons__figure--svg {
   width: 5rem;
   height: 5rem;
+  margin-right: 2rem;
+  margin-bottom: 2rem;
+}
+
+body.dark .perfil__icons__figure--svg:nth-child(8) {
+background-color: white;
+border-radius: 1rem;
 }
 
 .perfil__icons__figure {
   display: flex;
-  justify-content: space-evenly;
+  flex-wrap: wrap;
   width: 100%;
-  margin: 0;
+  
 }
 
 /* Cita */
