@@ -413,8 +413,8 @@ border-radius: 1rem;
 .perfil__icons__figure {
   display: flex;
   flex-wrap: wrap;
+  justify-content: center;
   width: 100%;
-  
 }
 
 /* Cita */
@@ -581,7 +581,7 @@ body.dark h1 {
   margin: 1rem auto;
   max-width: 90%;
   display: grid;
-  grid-gap: 40px;
+  grid-gap: 4rem;
   grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
 }
 
@@ -707,7 +707,6 @@ body.dark .filter-title {
 .cards-filter__card img:hover {
   opacity: .7;
   transition: all 0.3s ease-out;
-  border: 2px solid var(--secondary-color);
 }
 
 .cards-filter__figcaption {
@@ -991,9 +990,9 @@ body.dark .contact__title  {
   display: flex;
   justify-content: space-evenly;
   align-items: center;
-  width: 90%;
-  height: 200px;
-  margin: 0 auto;
+  width: 70%;
+  height: 100px;
+  margin: 3rem auto;
 }
 
 .notes-container__figcaption {
@@ -1023,11 +1022,11 @@ body.dark .notes * {
   color: var(--text-color-night);
 }
 
-body.dark .cites * {
+body.dark .notes-blog * {
   color: var(--text-color-night);
 }
 
-.cites {
+.notes-blog {
   width: 100%;
   min-width: 320px;
   max-width: var(--container-sm);
@@ -1035,16 +1034,34 @@ body.dark .cites * {
   padding: 5rem 0;
 }
 
-.cites > * {
+.notes-blog > * {
   margin: 2rem;
   font-size: 2rem;
 }
 
-.cites h1 {
+.notes-blog h1 {
   font-size: 4.2rem;
 }
 
-.cites p {
+.notes-blog h2 {
+  font-size: 3.5rem;
+  margin: 5rem 0;
+}
+
+.notes-blog h3 {
+  font-size: 3rem;
+  margin: 5rem 0;
+}
+
+.notes-blog p {
   line-height: 3rem;
+}
+
+.notes-blog ul {
+  margin-left: 5rem;
+}
+
+.notes-blog ul li {
+  margin-bottom: 2rem;
 }
 

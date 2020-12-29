@@ -85,12 +85,41 @@ body.dark header.sticky {
   padding-bottom: 8rem;
 }
 
-.cites {
+.notes-blog {
   width: 100%;
   min-width: 320px;
   max-width: var(--container-md);
   margin: 0 auto;
   padding: 5rem 0;
+}
+
+.notes-blog > * {
+  margin: 2rem;
+  padding: 3rem;
+  font-size: 3rem;
+}
+
+.notes-blog h1 {
+  font-size: 7rem;
+}
+
+.notes-blog h2 {
+  font-size: 6rem;
+}
+
+.notes-blog h3 {
+  font-size: 5rem
+}
+
+.notes-blog p {
+  line-height: 5rem;
+}
+
+.notes-blog ul {
+  width: 100%;
+  text-align: start;
+  list-style: none;
+  padding-left: 9rem;
 }
 
 .notes-container__figcaption {
