@@ -795,7 +795,7 @@ body.dark .contact__title  {
 }
 
 .contact-form > * {
-  padding: 0.5rem;
+  padding: .8rem;
   margin: 1rem auto;
   margin-top: 4rem;
   display: block;
@@ -806,7 +806,6 @@ body.dark .contact__title  {
 .contact-form__text {
   background-color: var(--secondary-color);
   color: var(--text-color-night);
-  height: 5rem;
 }
 
 .contact-form textarea {
