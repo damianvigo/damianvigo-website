@@ -30,7 +30,11 @@ El filósofo moderno y escritor Nassim Taleb define a un estoico como:
 5. __Amor Fati__ - Aceptar lo que te ocurre con una actitud positiva independientemente de que sea bueno o malo.
 
 
-### Representantes del estoicismo
+### Mis citas preferidas
+> "Los hombres se ven perturbados no por las cosas, sino por las opiniones sobre las cosas. Como la muerte, que no es nada terrible, pues entonces también se lo ha habría parecido a Sócrates sino que la opinión sobre la muerte, la de que es algo terrible. **Así que cuando suframos impedimentos o nos veamos perturbados o nos entristezcamos, no echemos nunca la culpa a otro, sino a nosotros mismos, es decir, a nuestras opiniones".** Manual 5 - Epicteto.
+
+
+#### Representantes del estoicismo
 
 * Zenón de Citio
 * Séneca

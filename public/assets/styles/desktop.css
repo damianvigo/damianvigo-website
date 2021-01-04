@@ -22,13 +22,14 @@
 }
 
 .last-proyects-container-fluid {
+  max-width: var(--container-md);
   flex: 0 0 40%;
 }
 
 .last-proyects-container-fluid__img {
   display: block;
   margin: 0 auto;
-  width: 50%;
+  width: 70%;
 }
 
 .container-card {
