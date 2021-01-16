@@ -54,6 +54,12 @@ body.dark header.sticky {
   padding-top: 7rem;
 }
 
+.proyects-title__h1 {
+  font-size: 5rem;
+  margin: 8rem 0;
+  padding: 4rem;
+}
+
 .last-proyects-container-fluid {
   flex: 0 0 40%;
 }
@@ -143,4 +149,9 @@ body.dark header.sticky {
   justify-content: center;
   width: 100%;
   min-width: 320px;
+}
+
+.footer {
+  margin-top: 9rem;
+  padding-top: 5rem;
 }
