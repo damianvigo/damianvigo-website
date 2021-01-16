@@ -54,7 +54,6 @@ export default function contactFormValidations() {
         console.log(json);
         $loader.classList.add('none');
         $response.classList.remove('none');
-        $response.innerHTML = `<p>${json.message}</p>`;
         $form.reset();
       })
       .catch(err => {

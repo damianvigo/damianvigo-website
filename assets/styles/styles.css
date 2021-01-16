@@ -822,7 +822,7 @@ body.dark .contact__title  {
 }
 
 .contact-form__response {
-  font-size: 1.8rem;
+  font-size: 2rem;
   text-align: center;
   color: var(--primary-color);
 }

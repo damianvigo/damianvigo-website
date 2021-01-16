@@ -39,26 +39,25 @@ export default function contactFormValidations() {
   d.addEventListener('submit', (e) => {
     e.preventDefault();
 
-    const $loader = d.querySelector('.contact-form-loader'),
-      $response = d.querySelector('.contact-form-response');
+    const $loader = d.querySelector('.contact-form__loader'),
+      $response = d.querySelector('.contact-form__response');
 
     $loader.classList.remove('none');
 
-    fetch('https://damianvigo.com/send_mail.php', {
+    fetch('https://formsubmit.co/ajax/damiandanielvigo@gmail.com', {
       method: 'POST',
       body: new FormData(e.target),
-      mode: 'cors' /* cross origin resolve sharing. Intercambio de recursos de origen cruzado. Activando cors. Intercambio de informacion entre dominios */
+      mode: 'cors'
     })
       .then(res => res.ok ? res.json() : Promise.reject(res))
       .then(json => {
         console.log(json);
         $loader.classList.add('none');
         $response.classList.remove('none');
-        $response.innerHTML = `<p>${json.message}</p>`;
         $form.reset();
       })
       .catch(err => {
-        console.log(err);
+        /* console.log(err); */
         let message = err.statusText || 'Ocurrio un error al enviar, intenta nuevamente';
         $response.innerHTML = `<p>Error: ${err.status}: ${message}<p/>`;
       })

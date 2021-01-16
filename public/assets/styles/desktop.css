@@ -35,3 +35,9 @@
 .container-card {
   max-width: var(--container-lg);
 }
+
+.contact-form__response {
+  font-size: 2.7rem;
+  text-align: center;
+  color: var(--primary-color);
+}
