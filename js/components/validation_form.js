@@ -38,7 +38,6 @@ export default function contactFormValidations() {
 
   d.addEventListener('submit', (e) => {
     e.preventDefault();
-    alert('Enviando Formulario');
 
     const $loader = d.querySelector('.contact-form-loader'),
       $response = d.querySelector('.contact-form-response');
