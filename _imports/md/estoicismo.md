@@ -4,7 +4,7 @@
 
 A principios del 2019 conocí la filosofía estoica, en ella encontré principios muy relevantes para nuestros tiempos actuales.
 
-En el 2020 se dio a conocer aún más debido a la pandemia del covid, porque justamente el estoicismo nos habla entre otras cosas del control de las emociones.
+En el 2020 se dio a conocer aún más debido a la pandemia del covid, porque justamente el estoicismo nos habla entre otras cosas de llevar un correcto control de nuestras emociones.
 
 Es importante destacar que el estoico no anula las emociones sino que las identifica, entiende y las gestiona.
 ## Qué es estoicismo?
