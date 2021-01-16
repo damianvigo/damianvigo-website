@@ -44,7 +44,7 @@ export default function contactFormValidations() {
 
     $loader.classList.remove('none');
 
-    fetch('https://damianvigo.com/send_mail.php', {
+    fetch('https://damianvigo.netlify.app/send_mail.php', {
       method: 'POST',
       body: new FormData(e.target),
       mode: 'cors' /* cross origin resolve sharing. Intercambio de recursos de origen cruzado. Activando cors. Intercambio de informacion entre dominios */
