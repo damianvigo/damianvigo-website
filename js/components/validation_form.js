@@ -44,10 +44,10 @@ export default function contactFormValidations() {
 
     $loader.classList.remove('none');
 
-    fetch('https://damianvigo.netlify.app/send_mail.php', {
+    fetch('https://formsubmit.co/ajax/damiandanielvigo@gmail.com', {
       method: 'POST',
       body: new FormData(e.target),
-      mode: 'cors' /* cross origin resolve sharing. Intercambio de recursos de origen cruzado. Activando cors. Intercambio de informacion entre dominios */
+      mode: 'cors'
     })
       .then(res => res.ok ? res.json() : Promise.reject(res))
       .then(json => {
@@ -58,7 +58,7 @@ export default function contactFormValidations() {
         $form.reset();
       })
       .catch(err => {
-        console.log(err);
+        /* console.log(err); */
         let message = err.statusText || 'Ocurrio un error al enviar, intenta nuevamente';
         $response.innerHTML = `<p>Error: ${err.status}: ${message}<p/>`;
       })
