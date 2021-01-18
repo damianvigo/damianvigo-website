@@ -37,3 +37,11 @@ overlay.addEventListener('click', (e) => {
   // overlay.classList.remove('active');
   e.target.id === 'overlay' ? overlay.classList.remove('active') : '';
 });
+
+
+//SW
+if ('serviceWorker' in navigator) {
+  navigator.serviceWorker.register('./sw.js')
+  .then(reg => console.log('Registro de SW exitoso', reg))
+  .catch(err => console.warn('Error al tratar de registrar el sw', err));
+}
