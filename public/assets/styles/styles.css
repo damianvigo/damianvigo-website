@@ -943,11 +943,31 @@ body.dark .contact__title  {
   background-color: #000;
 }
 
-.footer__author {
+.footer__author__sergey {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   font-size: 2rem;
   font-weight: var(--size-400);
-  margin: 2rem 0;
+  margin: 2rem;
+}
+
+.footer__author > p {
+  margin: 3rem 0;
   text-align: center;
+  font-size: 2rem;
+  font-weight: var(--size-400);
+}
+
+.footer__author__sergey p {
+  font-size: 1.5rem;
+}
+
+.footer__author__sergey > img {
+  width: 250px;
+  height: 50px;
+  margin-left: 1rem;
 }
 
 .footer__container-icon a:hover {

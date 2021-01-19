@@ -161,3 +161,7 @@ body.dark header.sticky {
   margin-top: 9rem;
   padding-top: 5rem;
 }
+
+.footer__author__sergey {
+  flex-direction: row;
+}
