@@ -7,7 +7,7 @@ A principios del 2019 conocí la filosofía estoica, en ella encontré principio
 En el 2020 se dio a conocer aún más debido a la pandemia del covid, porque justamente el estoicismo nos habla entre otras cosas de llevar un correcto control de nuestras emociones.
 
 Es importante destacar que el estoico no anula las emociones sino que las identifica, entiende y las gestiona.
-## Qué es estoicismo?
+## ¿Qué es estoicismo?
 
 Es una escuela fundada por Zenón de Citio en el 301 a.C.
 Se basa en el dominio de las pasiones que perturban la vida valiéndose de la __virtud y la razón__. Su objetivo es alcanzar la felicidad y la sabiduría prescindiendo de los bienes materiales, las comodidades excesivas y el azar.
