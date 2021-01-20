@@ -91,6 +91,10 @@ body.dark header.sticky {
   padding-bottom: 8rem;
 }
 
+.contact__title {
+  font-size: 5rem;
+}
+
 .notes-blog {
   width: 100%;
   min-width: 320px;
