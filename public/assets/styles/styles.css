@@ -387,13 +387,47 @@ body.dark .perfil__title-me {
 .perfil__description-me {
   width: 90%;
   margin: 0 auto;
+}
 
+.btn-wsp {
+  text-decoration: none;
+  width: 100%;
+  min-width: 250px;
+  max-width: 250px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 2.2rem;
+  line-height: 1rem;
+  padding: 2rem 0;
+  background: var(--color-boton);
+  color: var(--primary-color);
+  font-weight: var(--size-700);
+  border-radius: 10px;
+  margin: 2rem auto;
+  transition: all .6s ease;
+  border: .2rem solid var(--secondary-color);
+}
+
+.btn-wsp > span {
+  margin-right: 1rem;
+}
+
+.btn-wsp:hover {
+  color: var(--secondary-color);
+  background-color: var(--text-color-night);
+}
+
+.btn-wsp:hover span {
+  background-color: #25D366;
+  border-radius: 50%;
 }
 
 .perfil__text-me {
   font-size: 2rem;
   line-height: 2.8rem;
-  padding: 2rem;
+  padding: 1rem;
   margin: 1rem 0;
 }
 
@@ -421,6 +455,7 @@ border-radius: 1rem;
 .cite-container {
   width: 100%;
   min-width: 320px;
+  padding-top: 7rem;
 }
 
 .cite-container__cite {
@@ -651,7 +686,7 @@ body.dark .card-code {
 
 .card-code {
   display: inline-block;
-  padding: 1rem;
+  padding: 2rem;
   color: var(--text-color);
   font-size: 1.7rem;
   line-height: 1.9rem;
