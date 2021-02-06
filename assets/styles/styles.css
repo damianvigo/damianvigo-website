@@ -78,6 +78,10 @@ img {
   order: 1;
 }
 
+[id] {
+  scroll-margin-top: 15ex;
+}
+
 /* Overlay */
 .overlay {
   position: fixed;
