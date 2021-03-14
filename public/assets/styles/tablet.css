@@ -20,6 +20,12 @@ body.dark header.sticky {
   background-color: var(--secondary-color);
 }
 
+.cite-container {
+  width: 100%;
+  min-width: 320px;
+  padding-top: 22rem;
+}
+
 .header__menu-ul {
   display: flex;
   flex-flow: row wrap;
@@ -150,8 +156,8 @@ body.dark header.sticky {
 
 .perfil__icons__figure {
   display: flex;
-  justify-content: center;
-  width: 100%;
+ margin: 0 auto;
+  width: 50%;
   min-width: 320px;
 }
 

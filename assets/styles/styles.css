@@ -7,11 +7,11 @@
 */
 
 :root {
-  --font-rale:'Raleway', sans-serif;
-	--size-300: 300;
-	--size-400: 400;
-	--size-700: 700;
-	--size-900: 900;
+  --font-rale: 'Raleway', sans-serif;
+  --size-300: 300;
+  --size-400: 400;
+  --size-700: 700;
+  --size-900: 900;
   --primary-color: #fff;
   --secondary-color: #1f1f1f;
   --background-color: #f2f2f2;
@@ -38,7 +38,7 @@ html {
   font-size: 62.5%;
   font-family: var(--font-rale);
   scroll-behavior: smooth;
-  overflow-x: hidden;
+  overflow-x: hidden
 }
 
 *,
@@ -52,7 +52,12 @@ a {
 }
 
 
-h1, h2, h3, h4, h5, h6 {
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
   color: var(--text-color);
   text-align: center;
   font-weight: var(--size-900);
@@ -198,11 +203,15 @@ img {
   outline: none;
 }
 
-.hamburger-inner, .hamburger-inner::before, .hamburger-inner::after {
+.hamburger-inner,
+.hamburger-inner::before,
+.hamburger-inner::after {
   background-color: var(--primary-color);
 }
 
-.hamburger.is-active .hamburger-inner, .hamburger.is-active .hamburger-inner:after, .hamburger.is-active .hamburger-inner:before {
+.hamburger.is-active .hamburger-inner,
+.hamburger.is-active .hamburger-inner:after,
+.hamburger.is-active .hamburger-inner:before {
   background-color: var(--primary-color);
 }
 
@@ -325,6 +334,7 @@ body.dark .header.sticky {
 }
 
 .hero-image {
+  overflow: hidden;
   background-image: url('../img/my-desktop.jpg');
   color: var(--primary-color);
   width: 100%;
@@ -349,7 +359,7 @@ body.dark .header.sticky {
   margin: 0 auto;
 }
 
-.hero-image__perfil > * {
+.hero-image__perfil>* {
   color: var(--text-color-night);
   margin-top: 2rem;
 }
@@ -414,7 +424,7 @@ body.dark .perfil__title-me {
   border: .2rem solid var(--secondary-color);
 }
 
-.btn-wsp > span {
+.btn-wsp>span {
   margin-right: 1rem;
 }
 
@@ -451,7 +461,11 @@ border-radius: 1rem;
 body.dark .perfil__icons__figure--svg:nth-child(10) {
   background-color: white;
   border-radius: 1rem;
-  }
+}
+
+.perfil__icons__figure--svg:nth-child(13) {
+  width: 9rem;
+}
 
 .perfil__icons__figure {
   display: flex;
@@ -464,7 +478,7 @@ body.dark .perfil__icons__figure--svg:nth-child(10) {
 .cite-container {
   width: 100%;
   min-width: 320px;
-  padding-top: 7rem;
+  padding-top: 8rem;
 }
 
 .cite-container__cite {
@@ -497,7 +511,7 @@ body.dark .cite-container__davinci {
   min-width: 320px;
   max-width: 90%;
   margin: 5rem auto;
-  
+
 }
 
 .last-proyects__primary-title {
@@ -670,7 +684,7 @@ body.dark .card-title {
 body.dark .card-code {
   transition: .3s all ease-in-out;
   color: var(--primary-color);
-  
+
 }
 
 .card__card-figure:hover {
@@ -811,12 +825,13 @@ body.dark .overlay__description {
   text-align: center;
   margin-top: 12.5rem;
 }
+
 .contact__title {
   font-size: 4.2rem;
   margin-bottom: 3.125rem;
 }
 
-body.dark .contact__title  {
+body.dark .contact__title {
   color: var(--text-color-night);
 }
 
@@ -849,7 +864,7 @@ body.dark .contact__title  {
   max-width: var(--container-sm);
 }
 
-.contact-form > * {
+.contact-form>* {
   padding: .8rem;
   margin: 1rem auto;
   margin-top: 4rem;
@@ -998,7 +1013,7 @@ body.dark .contact__title  {
   margin: 2rem;
 }
 
-.footer__author > p {
+.footer__author>p {
   margin: 3rem 0;
   text-align: center;
   font-size: 2rem;
@@ -1009,7 +1024,7 @@ body.dark .contact__title  {
   font-size: 1.5rem;
 }
 
-.footer__author__sergey > img {
+.footer__author__sergey>img {
   width: 250px;
   height: 50px;
   margin-left: 1rem;
@@ -1024,8 +1039,10 @@ body.dark .contact__title  {
   from {
     transform: rotate3d(0, 0, 0, 0);
   }
+
   to {
-    transform: rotate3d(0, 1, 0, 360deg) /* y - x - z */
+    transform: rotate3d(0, 1, 0, 360deg)
+      /* y - x - z */
   }
 }
 
@@ -1054,7 +1071,7 @@ body.dark .contact__title  {
 }
 
 .notes-container__a {
- text-decoration: none;
+  text-decoration: none;
 }
 
 .notes-container__figure {
@@ -1105,7 +1122,7 @@ body.dark .notes-blog * {
   padding: 5rem 0;
 }
 
-.notes-blog > * {
+.notes-blog>* {
   margin: 2rem;
   font-size: 2rem;
 }
@@ -1135,4 +1152,3 @@ body.dark .notes-blog * {
 .notes-blog ul li {
   margin-bottom: 2rem;
 }
-
