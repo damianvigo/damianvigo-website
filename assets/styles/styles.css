@@ -443,10 +443,15 @@ body.dark .perfil__title-me {
   margin-bottom: 2rem;
 }
 
-body.dark .perfil__icons__figure--svg:nth-child(8) {
+/* body.dark .perfil__icons__figure--svg:nth-child(8) {
 background-color: white;
 border-radius: 1rem;
-}
+} */
+
+body.dark .perfil__icons__figure--svg:nth-child(10) {
+  background-color: white;
+  border-radius: 1rem;
+  }
 
 .perfil__icons__figure {
   display: flex;
@@ -748,6 +753,7 @@ body.dark .filter-title {
 
 .cards-filter__card {
   cursor: pointer;
+  height: 100%;
 }
 
 .cards-filter__card img:hover {

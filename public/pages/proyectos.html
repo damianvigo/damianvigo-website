@@ -8,6 +8,10 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" />
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700;900&display=swap" rel="stylesheet" />
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/hamburgers/1.1.3/hamburgers.min.css" />
+<link
+rel="stylesheet"
+href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+/>
   <title>
   Proyectos
 </title>
@@ -30,6 +34,13 @@
 <!-- <link rel="manifest" href="./manifest.json"> -->
 <!-- Global site tag (gtag.js) - Google Analytics -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=UA-145056950-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-145056950-1');
+</script>
 <link rel="canonical" href="https://damianvigo.com" />
 <link rel="icon" href="https://damianvigo.com/assets/favicon/favicon.ico" />
 <link rel="apple-touch-icon" href="https://damianvigo.com/assets/favicon/favicon.ico" />
@@ -80,10 +91,36 @@
   <main>
     <div class="fix-sticky"></div>
     <div class="proyects-title">
-      <h1 class="proyects-title__h1">Proyectos</h1>
+      <h1 class="proyects-title__h1 animate__animated animate__tada">Proyectos</h1>
     </div>
     <div class="wrapped-card">
       <section class="container-card grid-fluid">
+        <article class="card">
+          <a class="card__card-link" href="https://damianvigo-expenses-list.web.app" target="_blank" rel="noopener">
+            <figure class="card__card-figure">
+              <img loading="lazy" class="card__card-img" src="../assets/img/expenses.jpg" loading="lazy"
+                alt="webapp de control de gastos en react" title="expenses" />
+            </figure>
+          </a>
+          <h2 class="card-title">React</h2>
+          <p class="card-description">
+            webapp de registro de gastos construido con react y firebase</p>
+          <a href="https://github.com/damianvigo/expenses-list" target="_blank" rel="noopener" title="github"
+            class='card-code'>Código del proyecto</a>
+        </article>
+        <article class="card">
+          <a class="card__card-link" href="https://damianvigo.vercel.app" target="_blank" rel="noopener">
+            <figure class="card__card-figure">
+              <img loading="lazy" class="card__card-img" src="../assets/img/next-portfolio.jpg" loading="lazy"
+                alt="pagina web en nextjs" title="portfolio" />
+            </figure>
+          </a>
+          <h2 class="card-title">Next</h2>
+          <p class="card-description">
+            Portfolio con el framework nextjs. </p>
+          <a href="https://github.com/damianvigo/next-portfolio" target="_blank" rel="noopener" title="github"
+            class='card-code'>Código del proyecto</a>
+        </article>
         <article class="card">
           <a class="card__card-link" href="https://damian-vigo-batatabit.vercel.app" target="_blank" rel="noopener">
             <figure class="card__card-figure">
@@ -91,11 +128,9 @@
                 alt="pagina web batatabit" title="batatabit" />
             </figure>
           </a>
-          <h2 class="card-title">Maquetación</h2>
+          <h2 class="card-title">Criptomoneda</h2>
           <p class="card-description">
-            El 50% del tráfico en internet se realiza
-            desde dispositivos móviles, convirtiendo una prioridad desarrollar para smartphones, tablets y laptops.
-            Desde el wireframe a mobile first con buenas prácticas. </p>
+            Maquetación Mobile First</p>
           <a href="https://github.com/damianvigo/batatabit" target="_blank" rel="noopener" title="github"
             class='card-code'>Código del proyecto</a>
         </article>
@@ -108,7 +143,7 @@
           </a>
           <h2 class="card-title">Svelte</h2>
           <p class="card-description">
-            Web app construida con el framework de javascript Svelte</p>
+            Página web construida con el framework de javascript Svelte</p>
           <a href="https://github.com/damianvigo/svelte" target="_blank" rel="noopener" title="github"
             class='card-code'>Código del proyecto</a>
         </article>
@@ -145,21 +180,9 @@
             </figure>
           </a>
           <h2 class="card-title">App Manager</h2>
-          <p class="card-description">Web app en react con Redux</p>
+          <p class="card-description">Página web en react utilizando redux</p>
           <a href="https://github.com/damianvigo/javascript/tree/master/otros/app-manager" title="github"
             target="_blank" rel="noopener" class='card-code'>Código del proyecto</a>
-        </article>
-        <article class="card">
-          <a class="card__card-link" target="_blank" rel="noopener" href="https://movies-react-omdb.netlify.app">
-            <figure class="card__card-figure">
-              <img loading="lazy" class="card__card-img" src="../assets/img/movieapp-ddv.jpg"
-                alt="Buscador de peliculas online" title="movie-app" />
-            </figure>
-          </a>
-          <h2 class="card-title">Movie App</h2>
-          <p class="card-description">Web app en react con la API de OMDb (The Open Movie Database)</p>
-          <a href="https://github.com/damianvigo/movie-app" title="github" target="_blank" rel="noopener"
-            class='card-code'>Código del proyecto</a>
         </article>
         <article class="card">
           <a target="_blank" rel="noopener" class="card__card-link" href="https://portfolio-dv.netlify.app">
@@ -186,30 +209,6 @@
           <a href="https://github.com/damianvigo/javascript/tree/master/react-avanzado/react-avanzado" title="github"
             target="_blank" rel="noopener" class='card-code'>Código del proyecto</a>
         </article>
-        <article class="card">
-          <a target="_blank" rel="noopener" class="card__card-link" href="https://bootstrap-5-dv.netlify.app">
-            <figure class="card__card-figure">
-              <img loading="lazy" class="card__card-img" src="../assets/img/bootstrap-5-beta.jpg" title="tarjetas"
-                alt="Tarjetas en Bootstrap 5 beta" />
-            </figure>
-          </a>
-          <h2 class="card-title">Maquetacion</h2>
-          <p class="card-description">Tarjetas en bootstrap v5.0.0 beta 1 con sass.</p>
-          <a href="https://github.com/damianvigo/bootstrap-test" title="github" target="_blank" rel="noopener"
-            class='card-code'>Código del proyecto</a>
-        </article>
-        <!--      <article class="card">
-          <a target="_blank" rel="noopener" class="card__card-link" href="https://damian-vigo-batatabit.vercel.app">
-            <figure class="card__card-figure">
-              <img loading="lazy" class="card__card-img" src="../assets/img/batatabit.jpg" title="batatabit"
-                alt="Web de criptomonedas" />
-            </figure>
-          </a>
-          <h2 class="card-title">Maquetacion</h2>
-          <p class="card-description">Maquetación Mobile First. En HTML y CSS</p>
-          <a href="https://github.com/damianvigo/batatabit" title="github" target="_blank" rel="noopener"
-            class='card-code'>Código del proyecto</a>
-        </article> -->
       </section>
     </div>
     <section class='container-filter'>
@@ -245,6 +244,16 @@
                 class="fab fa-github cards-filter__container-icon--icon"></i></a>
           </div>
         </figure>
+        <figure class="cards-filter__card" data-description="Tarjetas en React">
+          <img class="cards-filter__img" src="../assets/img/react-cards.jpg" loading="lazy" title="Tarjetas"
+            alt="Simples tarjetas de noticias en react" />
+          <figcaption class="cards-filter__figcaption">React</figcaption>
+          <div class="cards-filter__container-icon">
+            <a href="https://github.com/damianvigo/react-cards" target="_blank" rel="noopener"><i
+                class="fab fa-github cards-filter__container-icon--icon"></i></a>
+          </div>
+        </figure>
+
         <figure class="cards-filter__card" data-description="Blog - HTML5 - CSS3(Materialize)">
           <img class="cards-filter__img" src="../assets/img/materialize.jpg" loading="lazy" title="Blog"
             alt="Maquetado web de un blog con el framework Materialize" />
