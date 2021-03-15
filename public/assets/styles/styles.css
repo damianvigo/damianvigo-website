@@ -239,6 +239,7 @@ img {
 
 /* Header */
 .header {
+  overflow: hidden;
   position: fixed;
   top: 0;
   left: 0;
@@ -458,7 +459,7 @@ background-color: white;
 border-radius: 1rem;
 } */
 
-body.dark .perfil__icons__figure--svg:nth-child(10) {
+body.dark .perfil__icons__figure--svg:nth-child(11) {
   background-color: white;
   border-radius: 1rem;
 }
@@ -767,7 +768,6 @@ body.dark .filter-title {
 
 .cards-filter__card {
   cursor: pointer;
-  height: 100%;
 }
 
 .cards-filter__card img:hover {

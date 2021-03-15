@@ -239,6 +239,7 @@ img {
 
 /* Header */
 .header {
+  overflow: hidden;
   position: fixed;
   top: 0;
   left: 0;
@@ -767,7 +768,6 @@ body.dark .filter-title {
 
 .cards-filter__card {
   cursor: pointer;
-  height: 100%;
 }
 
 .cards-filter__card img:hover {
