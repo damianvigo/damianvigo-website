@@ -275,6 +275,31 @@ body.dark .header.sticky {
   color: var(--primary-color);
 }
 
+.header__logo--text {
+  display: flex;
+  overflow: hidden;
+}
+
+.header__logo--text > div {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  transition: .3s ease all;
+}
+
+.header__logo--text > div.animation {
+  transform: translateY(-30px);
+}
+
+/* .header__logo--text > div span {
+ 
+} */
+
+.second-line {
+  position: absolute;
+  top: 3rem;
+}
+
 .header__menu-ul {
   display: flex;
   flex-direction: column;
@@ -376,8 +401,8 @@ body.dark .header.sticky {
 .hero-image__img-perfil--img {
   border-radius: 50%;
   vertical-align: top;
-  width: 100px;
-  height: 100px;
+  width: 15rem;
+  height: 15rem;
   object-fit: cover;
 }
 
@@ -499,6 +524,7 @@ body.dark .perfil__icons__figure--svg:nth-child(11) {
   line-height: 3.5rem;
   font-weight: var(--size-400);
   text-align: center;
+  padding: 0 1.5rem;
 }
 
 body.dark .cite-container__davinci {

@@ -1,9 +1,10 @@
-import darkMode from './components/darkMode.js'
-import stickyFooter from './components/sticky_footer.js'
-import hamburguerMenu from './components/hamburguer_menu.js'
-import scrollTopButton from './components/scroll-boton.js'
+import darkMode from './components/darkMode.js';
+import stickyFooter from './components/sticky_footer.js';
+import hamburguerMenu from './components/hamburguer_menu.js';
+import scrollTopButton from './components/scroll-boton.js';
 import searchFilters from './components/search_filter.js';
-import validationForm from './components/validation_form.js'
+import validationForm from './components/validation_form.js';
+import TextAnimated from './components/text_animation.js';
 
 const d = document;
 const w = window;
@@ -11,10 +12,12 @@ const w = window;
 d.addEventListener('DOMContentLoaded', (e) => {
   darkMode('#switch');
   stickyFooter('.header');
-  searchFilters('.card-filter-input', '.cards-filter__card')
+  searchFilters('.card-filter-input', '.cards-filter__card');
   scrollTopButton('.scroll-top-btn');
   validationForm();
 });
+
+new TextAnimated('.animate-text-1', '.objective-enter-out-1');
 
 hamburguerMenu('.panel-btn', '.panel', '.panel__menu-a');
 
@@ -37,7 +40,6 @@ overlay.addEventListener('click', (e) => {
   // overlay.classList.remove('active');
   e.target.id === 'overlay' ? overlay.classList.remove('active') : '';
 });
-
 
 //SW
 /* if ('serviceWorker' in navigator) {
