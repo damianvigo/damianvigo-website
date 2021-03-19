@@ -1,0 +1,47 @@
+.header {
+  font-size: 2.5rem;
+}
+
+.hero-image {
+  height: 100vh;
+}
+
+.hero-image__title {
+  font-size: 11rem;
+}
+
+.hero-image__subtitle {
+  font-size: 9rem;
+}
+
+.hero-image__img-perfil--img {
+  width: 200px;
+  height: 200px;
+}
+
+.last-proyects-container {
+  display: flex;
+  align-items: center;
+  height: 1200px;
+}
+
+.last-proyects-container-fluid {
+  max-width: var(--container-md);
+  flex: 0 0 40%;
+}
+
+.last-proyects-container-fluid__img {
+  display: block;
+  margin: 0 auto;
+  width: 70%;
+}
+
+.container-card {
+  max-width: var(--container-lg);
+}
+
+.contact-form__response {
+  font-size: 2.7rem;
+  text-align: center;
+  color: var(--primary-color);
+}
