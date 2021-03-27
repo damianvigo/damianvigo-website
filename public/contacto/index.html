@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es-ES">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/css/all.min.css" />
 <link rel="preconnect" href="https://fonts.gstatic.com" />
 <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;700;900&display=swap" rel="stylesheet" />
@@ -12,9 +12,9 @@ rel="stylesheet"
 href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 />
   <title>
-  Notas
+  Hablemos
 </title>
-<meta property="og:title" name="twitter:title" content="Notas">
+<meta property="og:title" name="twitter:title" content="Hablemos">
   <meta name="description" content="Portafolio de proyectos de Damian Vigo" />
 <meta name="robots" content="index" />
 <meta name="robots" content="follow" />
@@ -53,9 +53,9 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   <a href="../../index.html" class="header__logo objective-enter-out-1 animate-text-1 header__logo--text">DVDEV</a>
   <nav class="haeder__menu">
     <ul class="header__menu-ul">
-      <li class="header__menu-li"><a class="header__menu-a" href="../../pages/proyectos.html">Proyectos</a></li>
-      <li class="header__menu-li"><a class="header__menu-a" href="../../pages/notas.html">Notas</a></li>
-      <li class="header__menu-li"><a class="header__menu-a" href="../../pages/contacto.html">Hablemos</a></li>
+      <li class="header__menu-li"><a class="header__menu-a" href="../../proyectos/">Proyectos</a></li>
+      <li class="header__menu-li"><a class="header__menu-a" href="../../notas/">Notas</a></li>
+      <li class="header__menu-li"><a class="header__menu-a" href="../../contacto/">Hablemos</a></li>
     </ul>
   </nav>
   <button class="switch" id="switch">
@@ -65,9 +65,9 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
 </header>
   <aside class="panel">
   <nav class="panel__menu">
-    <a class="panel__menu-a" href="../pages/proyectos.html">Proyectos</a>
-    <a class="panel__menu-a" href="../pages/notas.html">Notas</a>
-    <a class="panel__menu-a" href="../pages/contacto.html">Hablemos</a>
+    <a class="panel__menu-a" href="../../proyectos/">Proyectos</a>
+    <a class="panel__menu-a" href="../../notas/">Notas</a>
+    <a class="panel__menu-a" href="../../contacto/">Hablemos</a>
   </nav>
 </aside>
 
@@ -86,32 +86,38 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
   </div>
   <p class="overlay__description"></p>
 </section>
-  <div class="fix-sticky"></div>
-  <main class="notes">
-    <h1 class="notes__title animate__animated animate__flash">Notas</h1>
-    <h2 class="notes__subtitle">En esta sección encontrarás notas sobre mis intereses personales, tales como filosofía de vida, estoicismo, minimalismo y todo lo que considere contenido de valor</h2>
-    <section class="notes-container">
-      <a class="notes-container__a" href="../pages/citas.html">
-        <figure class="notes-container__figure">
-          <img class="notes-container__img" src="../assets/icon/cites.png" alt="">
-          <figcaption class="notes-container__figcaption">
-            <span class="notes-container__span">Citas</span>
-            <time datetime=2020-11-04 class="notes-container__time">Nov 04 2020</time>
-          </figcaption>
-        </figure>
-      </a>
-      <a class="notes-container__a" href="../pages/estoicismo.html">
-        <figure class="notes-container__figure">
-          <img class="notes-container__img" src="../assets/icon/filosofia.svg" alt="">
-          <figcaption class="notes-container__figcaption">
-            <span class="notes-container__span">Estoicismo</span>
-            <time datetime=2020-12-28 class="notes-container__time">Dic 28 2020</time>
-          </figcaption>
-        </figure>
-      </a>
+  <main>
+    <div class="fix-sticky"></div>
+    <section class="contact">
+      <article class="contact__container-title">
+        <h2 class="contact__title animate__animated animate__tada">Contacto</h2>
+      </article>
+      <div class="form-background">
+        <div class="form-background__transparent">
+          <form class="contact-form">
+            <input type="text" name="name" title="El nombre sólo acepta letras y espacios en blanco"
+              class="contact-form__text" placeholder="Tu nombre" autofocus required
+              pattern="^[A-Za-zÑñÁáÉéÍíÓóÚúÜü\s]+$" />
+            <input type="email" name="email" title="Email incorrecto" required class="contact-form__text"
+              placeholder="Tu email" pattern="^[a-z0-9]+(\.[_a-z0-9]+)*@[a-z0-9-]+(\.[a-z0-9-]+)*(\.[a-z]{2,15})$" />
+            <input type="text" name="subject" required title="El Asunto es requerido" class="contact-form__text"
+              placeholder="Asunto" />
+            <textarea name="comments" cols="50" rows="10" class="contact-form__text contact-form__textarea"
+              placeholder="Tu comentario" title="Tu comentario no debe exceder los 255 caracteres"
+              data-pattern="^.{1,255}$" required></textarea>
+            <input type="submit" class="contact-form__btn" value="Envíar" />
+            <div class="contact-form__loader none">
+              <img src="../assets/icon/ball-triangle.svg" alt="Cargando">
+            </div>
+            <div class="contact-form__response none">
+              <p>¡Gracias por comunicarte! A la brevedad me estaré contactando contigo 👨‍💻</p>
+            </div>
+          </form>
+        </div>
+      </div>
     </section>
   </main>
- <!--  <footer class="footer">
+  <footer class="footer">
   <section class="footer__social-network">
     <div class="footer__container-icon">
       <a href="https://www.facebook.com/ddamianvigo" target="_blank" rel="noopener" class="footer__fb">
@@ -136,7 +142,7 @@ href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
       <img src="../../assets/icon/sergey.svg" alt="logo de Sergey" title="Sergey" />
     </div>
   </div>
-</footer> -->
+</footer>
   
   <script src="https://kit.fontawesome.com/e36e673736.js" crossorigin="anonymous"></script>
   <script src="../js/index.js" type="module"></script>
