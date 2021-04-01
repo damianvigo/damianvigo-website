@@ -1060,7 +1060,7 @@ body.dark .contact__title {
   font-size: 1.5rem;
 }
 
-.footer__author__sergey>img {
+.footer__author__sergey-link {
   width: 250px;
   height: 50px;
   margin-left: 1rem;
