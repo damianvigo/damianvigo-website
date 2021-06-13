@@ -1,6 +1,12 @@
 # Citas
 
-Aqui se encuentran mis frases favoritas.
+Aquí se encuentran mis frases favoritas.
+
+> **"La primera y principal responsabilidad de cualquiera que pretenda gerenciar es gerenciarse a sí mismo. Gerenciar su propia integridad, su carácter, su ética, su conocimiento, su sabiduría, su temperamento, sus palabras, sus actos.**
+Ésta es una tarea compleja, interminable, increíblemente difícil y muy poco reconocida. La gerencia de sí mismo es algo a lo que dedicamos muy poco tiempo y en lo que escasamente logramos resultados destacables porque se trata de algo mucho más difícil que el mero determinar y controlar conducta de otros.
+Sin gerenciarse a sí mismo nadie está en condiciones de ejercer autoridad, no importa cuanta autoridad le sea conferida. Mientras más autoridad se les entrega más peligros resultan. La gerencia de sí mismo debería consumir la mitad de nuestro tiempo y lo mejor de nuestras habilidades. Y cuando nos dedicamos a ella, los elementos éticos, morales y espirituales resultan ineludibles¨ Dee Hock Fundador y CEO Emérito de Visa International
+
+> "Concéntrate cada minuto como un romano, como un hombre (o mujer), en hacer lo que está frente a ti, con precisión, y con dignidad rigurosa y no fingida, con afecto, con libertad y con justicia. Libérate de todas las distracciones. Marco Aurelio
 
 > "La principal causa de las dificultades financieras son el miedo y la ignorancia, no la economía o el gobierno de los ricos. Los miedos y la ignorancia auto-inflingidos mantienen atrapada a la gente". Robert Kiyosaki.
 
@@ -8,9 +14,6 @@ Aqui se encuentran mis frases favoritas.
 
 > “Yo no estudio para saber más, sino para ignorar menos”.
 Sor Juana Inés De la Cruz.
-
-> "No se trata de estar preparado o sentirse preparado todo el tiempo. A veces solo tienes que hacer lo que sabes que tienes que hacer. Y cuando lo hagas, verás que estás más preparado de lo que crees. Nunca dudes de ti mismo o nunca harás nada importante".
-A.J. Darkholme, Rise of the Morningstar.
 
 > "Vacia tu bolsillo en tu mente y tu mente llenara tus bolsillos". Benjamin Franklin.
 
