@@ -1,120 +1,231 @@
 <!DOCTYPE html>
 <html lang="es-ES">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <sergey-import src="head/miscelanea" />
+    <sergey-import src="metas/titles">Bievenido a mi Portafolio</sergey-import>
+    <sergey-import src="metas/seo" />
+    <sergey-import src="head/links" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <sergey-import src="head/miscelanea" />
-  <sergey-import src="metas/titles">Bievenido a mi Portafolio</sergey-import>
-  <sergey-import src="metas/seo" />
-  <sergey-import src="head/links" />
-</head>
-
-<body id='top'>
-  <sergey-import src="components/header" />
-  <sergey-import src="components/buttons" />
-  <main>
-    <section class="hero-image">
-      <div class="hero-image__transparent">
-        <div class="hero-image__perfil">
-          <h1 class="animate__animated animate__fadeInLeftBig hero-image__title">Hola, soy Damián Vigo</h1>
-          <h2 class="hero-image__subtitle animate__animated animate__fadeInRightBig">Desarrollador Web</h2>
-          <figure class="hero-image__img-perfil">
-            <img class="hero-image__img-perfil--img animate__animated animate__zoomInUp animate__slow" src="./assets/img/seleccionada-yo-compress.jpg"
-              alt="imagen retrato de Damián Vigo" title="Retrato Damian Vigo" />
-          </figure>
+  <body id="top">
+    <sergey-import src="components/header" />
+    <sergey-import src="components/buttons" />
+    <main>
+      <section class="hero-image">
+        <div class="hero-image__transparent">
+          <div class="hero-image__perfil">
+            <h1
+              class="animate__animated animate__fadeInLeftBig hero-image__title"
+            >
+              Hola, soy Damián Vigo
+            </h1>
+            <h2
+              class="hero-image__subtitle animate__animated animate__fadeInRightBig"
+            >
+              Desarrollador Web
+            </h2>
+            <figure class="hero-image__img-perfil">
+              <img
+                class="hero-image__img-perfil--img animate__animated animate__zoomInUp animate__slow"
+                src="./assets/img/seleccionada-yo-compress.jpg"
+                alt="imagen retrato de Damián Vigo"
+                title="Retrato Damian Vigo"
+              />
+            </figure>
+          </div>
         </div>
-      </div>
-    </section>
-    <section id="sobre-mi" class="perfil">
-      <h2 class="perfil__title-me">¿Quién Soy?</h2>
-      <article class="perfil__description-me">
-        <p class="perfil__text-me">¡Hola! 👋 <br /> <strong>Me llamo Damián Vigo y soy Frontend Developer de Buenos
-            Aires Argentina.</strong><br />
-          Estoy especializado en el desarrollo web de tecnologías Javascript.
-          estoy aquí para ayudarte a desarrollar tu idea. <br />
-          <a class="btn-wsp"
-            href="https://api.whatsapp.com/send?phone=5491156923013&text=Hola,%20¿Podemos%20conversar%20ahora?"
-            noreferrer noopener target="_blank">
-            <span>
-              <svg fill="#fff" width="20px" role="img" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-                <title>WhatsApp icon</title>
-                <path
-                  d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z" />
-              </svg>
-            </span>
-            Escríbeme</a><br />
-        <article class="perfil__icons">
-          <figure class="perfil__icons__figure">
-            <img class="perfil__icons__figure--svg" src="./assets/icon/react.svg" alt="icono de react" />
-            <img class="perfil__icons__figure--svg" src="./assets/icon/javascript.svg" alt="icono de javascript"
-              title="javascript" />
-            <img class="perfil__icons__figure--svg" src="./assets/icon/css3.svg" alt="icono de css" title="css" />
-            <img class="perfil__icons__figure--svg" src="./assets/icon/html5.svg" alt="icono de html" title="html" />
-            <img class="perfil__icons__figure--svg" src="./assets/icon/visualstudiocode.svg"
-              alt="icono de visual studio code" />
-            <img class="perfil__icons__figure--svg" src="./assets/icon/bootstrap.svg" alt="icono de bootstrap" />
-            <img class="perfil__icons__figure--svg" src="./assets/icon/sass.svg" alt="icono de sass" />
-            <img class="perfil__icons__figure--svg" src="./assets/icon/svelte.svg" alt="icono de svelte" />
-            <img class="perfil__icons__figure--svg" src="./assets/icon/vue.svg" alt="icono de vue" />
-            <img class="perfil__icons__figure--svg" src="./assets/icon/angular.svg" alt="icono de php" />
-            <img class="perfil__icons__figure--svg" src="./assets/icon/github.svg" alt="icono de github" />
-            <img class="perfil__icons__figure--svg" src="./assets/icon/nodejs.svg" alt="icono de nodejs" />
-            <img class="perfil__icons__figure--svg" src="./assets/icon/mongodb.svg" alt="icono de mongodb" />
-          </figure>
-        </article>
-      </article>
-    </section>
-    <div class="cite-container">
-      <article class="cite-container__cite">
-        <h2 class="cite-container__davinci">
-          « La simplicidad es la máxima sofisticación » <cite>Leonardo Da Vinci</cite>
-        </h2>
-      </article>
-    </div>
-    <section class="last-proyects">
-      <h2 class="last-proyects__primary-title">Ultimos Proyectos</h2>
-      <section class="last-proyects-container">
-        <article class="last-proyects-container-fluid">
-          <h2 class="last-proyects-container-fluid__title">React</h2>
-          <p class="last-proyects-container-fluid__description">Una progressive web app donde encontrarás fotos de
-            animales muy bonitos. Desarrollado con React JS - reach router - react helmet - graphQL - react apollo</p>
-        </article>
-        <article class="last-proyects-container-fluid">
-          <a class="last-proyects-container-fluid-link" href="https://petgram.damianvigo.vercel.app" target="_blank"
-            rel="noopener">
-            <figure class="last-proyects-container-fluid__figure">
-              <img class="last-proyects-container-fluid__img" src="./assets/img/petgram.jpg"
-                alt="Red social de animales llamada Petgram" title="Petgram" loading="lazy" />
-            </figure>
-          </a>
-        </article>
+      </section>
+      <section id="sobre-mi" class="perfil">
+        <h2 class="perfil__title-me">¿Quién Soy?</h2>
+        <article class="perfil__description-me">
+          <p class="perfil__text-me">
+            ¡Hola! 👋 <br />
+            <strong
+              >Me llamo Damián Vigo y soy <i>Frontend Developer</i> de Buenos
+              Aires Argentina.</strong
+            ><br />
+            Estoy especializado en frontend con la biblioteca React de
+            javascript Disfruto llevar a cabo la maquetación e interactividad de
+            interfaces web, así como la optimización, para el buen
+            posicionamiento y el rendimiento de carga de sitios y aplicaciones
+            web. <br />
+            <a
+              class="btn-wsp"
+              href="https://api.whatsapp.com/send?phone=5491156923013&text=Hola,%20¿Podemos%20conversar%20ahora?"
+              noreferrer
+              noopener
+              target="_blank"
+            >
+              <span>
+                <svg
+                  fill="#fff"
+                  width="20px"
+                  role="img"
+                  viewBox="0 0 24 24"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <title>WhatsApp icon</title>
+                  <path
+                    d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"
+                  />
+                </svg>
+              </span>
+              Escríbeme</a
+            ><br />
+          </p>
 
-        <article class="last-proyects-container-fluid flex-order">
-          <h2 class="last-proyects-container-fluid__title text-right">Portfolio</h2>
-          <p class="last-proyects-container-fluid__description text-right">Diseño Responsive en HTML CSS y vanilla
-            Javascript. Slider y modal construido solo con CSS.</p>
-        </article>
-        <article class="last-proyects-container-fluid">
-          <a class="last-proyects-container-fluid-link" href="https://portfolio-dv.netlify.app" target="_blank"
-            rel="noopener">
-            <figure class="last-proyects-container-fluid__figure">
-              <img class="last-proyects-container-fluid__img" src="./assets/img/portfolio-dv.jpg" alt="Portafolio cv"
-                title="Portfolio" loading="lazy" />
+          <article class="perfil__icons">
+            <figure class="perfil__icons__figure">
+              <img
+                class="perfil__icons__figure--svg"
+                src="./assets/icon/react.svg"
+                alt="icono de react"
+              />
+              <img
+                class="perfil__icons__figure--svg"
+                src="./assets/icon/javascript.svg"
+                alt="icono de javascript"
+                title="javascript"
+              />
+              <img
+                class="perfil__icons__figure--svg"
+                src="./assets/icon/css3.svg"
+                alt="icono de css"
+                title="css"
+              />
+              <img
+                class="perfil__icons__figure--svg"
+                src="./assets/icon/html5.svg"
+                alt="icono de html"
+                title="html"
+              />
+              <img
+                class="perfil__icons__figure--svg"
+                src="./assets/icon/visualstudiocode.svg"
+                alt="icono de visual studio code"
+              />
+              <img
+                class="perfil__icons__figure--svg"
+                src="./assets/icon/bootstrap.svg"
+                alt="icono de bootstrap"
+              />
+              <img
+                class="perfil__icons__figure--svg"
+                src="./assets/icon/sass.svg"
+                alt="icono de sass"
+              />
+              <img
+                class="perfil__icons__figure--svg"
+                src="./assets/icon/svelte.svg"
+                alt="icono de svelte"
+              />
+              <img
+                class="perfil__icons__figure--svg"
+                src="./assets/icon/vue.svg"
+                alt="icono de vue"
+              />
+              <img
+                class="perfil__icons__figure--svg"
+                src="./assets/icon/angular.svg"
+                alt="icono de php"
+              />
+              <img
+                class="perfil__icons__figure--svg"
+                src="./assets/icon/github.svg"
+                alt="icono de github"
+              />
+              <img
+                class="perfil__icons__figure--svg"
+                src="./assets/icon/nodejs.svg"
+                alt="icono de nodejs"
+              />
+              <img
+                class="perfil__icons__figure--svg"
+                src="./assets/icon/mongodb.svg"
+                alt="icono de mongodb"
+              />
             </figure>
-          </a>
+          </article>
         </article>
       </section>
-    </section>
-    <button class="container-button">
-      <a href="./proyectos/" class="button">
-        Ver más
-      </a>
-    </button>
-  </main>
-  <sergey-import src="components/footer" />
-  <script src="https://kit.fontawesome.com/e36e673736.js" crossorigin="anonymous"></script>
-  <script src="./js/index.js" type="module"></script>
-</body>
+      <div class="cite-container">
+        <article class="cite-container__cite">
+          <h2 class="cite-container__davinci">
+            « La simplicidad es la máxima sofisticación »
+            <cite>Leonardo Da Vinci</cite>
+          </h2>
+        </article>
+      </div>
+      <section class="last-proyects">
+        <h2 class="last-proyects__primary-title">Ultimos Proyectos</h2>
+        <section class="last-proyects-container">
+          <article class="last-proyects-container-fluid">
+            <h2 class="last-proyects-container-fluid__title">React</h2>
+            <p class="last-proyects-container-fluid__description">
+              Una progressive web app donde encontrarás fotos de animales muy
+              bonitos. Desarrollado con React JS - reach router - react helmet -
+              graphQL - react apollo
+            </p>
+          </article>
+          <article class="last-proyects-container-fluid">
+            <a
+              class="last-proyects-container-fluid-link"
+              href="https://petgram.damianvigo.vercel.app"
+              target="_blank"
+              rel="noopener"
+            >
+              <figure class="last-proyects-container-fluid__figure">
+                <img
+                  class="last-proyects-container-fluid__img"
+                  src="./assets/img/petgram.jpg"
+                  alt="Red social de animales llamada Petgram"
+                  title="Petgram"
+                  loading="lazy"
+                />
+              </figure>
+            </a>
+          </article>
 
+          <article class="last-proyects-container-fluid flex-order">
+            <h2 class="last-proyects-container-fluid__title text-right">
+              Portfolio
+            </h2>
+            <p class="last-proyects-container-fluid__description text-right">
+              Diseño Responsive en HTML CSS y vanilla Javascript. Slider y modal
+              construido solo con CSS.
+            </p>
+          </article>
+          <article class="last-proyects-container-fluid">
+            <a
+              class="last-proyects-container-fluid-link"
+              href="https://portfolio-dv.netlify.app"
+              target="_blank"
+              rel="noopener"
+            >
+              <figure class="last-proyects-container-fluid__figure">
+                <img
+                  class="last-proyects-container-fluid__img"
+                  src="./assets/img/portfolio-dv.jpg"
+                  alt="Portafolio cv"
+                  title="Portfolio"
+                  loading="lazy"
+                />
+              </figure>
+            </a>
+          </article>
+        </section>
+      </section>
+      <button class="container-button">
+        <a href="./proyectos/" class="button"> Ver más </a>
+      </button>
+    </main>
+    <sergey-import src="components/footer" />
+    <script
+      src="https://kit.fontawesome.com/e36e673736.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./js/index.js" type="module"></script>
+  </body>
 </html>
