@@ -591,6 +591,7 @@ body.dark .last-proyects-container {
 
 .last-proyects-container-fluid__figure {
   width: 100%;
+  transition: opacity 0.3s ease-in-out;
 }
 
 .last-proyects-container-fluid__figure:hover {
@@ -619,6 +620,7 @@ body.dark .last-proyects-container {
   color: var(--text-color-night);
   cursor: pointer;
   box-shadow: 3px 5px 10px rgba(56, 56, 56, 0.9);
+  transition: opacity 0.3s ease-in-out;
 }
 
 .container-button a {
@@ -694,11 +696,12 @@ body.dark h1 {
   border-radius: 5px;
   text-align: right;
   background-color: var(--background-color);
-  transition: transform 0.3s ease-in;
+  transition: transform 0.3s ease-in, opacity 0.3s ease-in-out;
 }
 
 .card:hover {
   transform: scale(1.1);
+  opacity: 0.7;
 }
 
 body.dark .card {
@@ -724,11 +727,6 @@ body.dark .card-code {
 }
 .card__card-figure {
   width: 100%;
-}
-
-.card__card-figure:hover {
-  transition: opacity 0.3s;
-  opacity: 0.7;
 }
 
 .card-container {
