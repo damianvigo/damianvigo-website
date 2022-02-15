@@ -21,19 +21,15 @@
 
 .last-proyects-container {
   display: flex;
-  align-items: center;
-  height: 1200px;
+  align-items: stretch;
+  justify-content: space-evenly;
 }
 
 .last-proyects-container-fluid {
-  max-width: var(--container-md);
-  flex: 0 0 40%;
+  flex: 0 1 30%;
 }
 
 .last-proyects-container-fluid__img {
-  display: block;
-  margin: 0 auto;
-  width: 70%;
 }
 
 .container-card {
