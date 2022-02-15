@@ -1214,3 +1214,21 @@ body.dark .notes-blog * {
 .notes-blog ul li {
   margin-bottom: 2rem;
 }
+
+p::selection,
+h1::selection,
+h2::selection,
+h3::selection,
+h4::selection,
+h5::selection,
+h6::selection,
+cite::selection,
+strong::selection,
+b::selection,
+i::selection,
+small::selection,
+a::selection,
+figcaption::selection {
+  background-color: var(--javascript-color);
+  color: var(--secondary-color);
+}
