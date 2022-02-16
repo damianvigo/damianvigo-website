@@ -4,7 +4,7 @@ export default function contactFormValidations() {
   const $form = d.querySelector('.contact-form'),
     $inputs = d.querySelectorAll('.contact-form [required]');
 
-  $inputs.forEach(input => {
+  $inputs.forEach((input) => {
     const $span = d.createElement('span');
     $span.id = input.name;
     $span.textContent = input.title;
@@ -12,7 +12,7 @@ export default function contactFormValidations() {
     input.insertAdjacentElement('afterend', $span);
   });
 
-  d.addEventListener('keyup', e => {
+  d.addEventListener('keyup', (e) => {
     if (e.target.matches('.contact-form [required]')) {
       let $input = e.target,
         pattern = $input.pattern || $input.dataset.pattern;
@@ -23,16 +23,15 @@ export default function contactFormValidations() {
         let regex = new RegExp(pattern);
         return !regex.exec($input.value)
           ? d.getElementById($input.name).classList.add('is-active')
-          : d.getElementById($input.name).classList.remove('is-active')
+          : d.getElementById($input.name).classList.remove('is-active');
       }
 
       if (!pattern) {
         // console.log('El input NO tiene patrón');
         return $input.value === ''
           ? d.getElementById($input.name).classList.add('is-active')
-          : d.getElementById($input.name).classList.remove('is-active')
+          : d.getElementById($input.name).classList.remove('is-active');
       }
-
     }
   });
 
@@ -47,18 +46,17 @@ export default function contactFormValidations() {
     fetch('https://formsubmit.co/ajax/damiandanielvigo@gmail.com', {
       method: 'POST',
       body: new FormData(e.target),
-      mode: 'cors'
+      mode: 'cors',
     })
-      .then(res => res.ok ? res.json() : Promise.reject(res))
-      .then(json => {
-        console.log(json);
+      .then((res) => (res.ok ? res.json() : Promise.reject(res)))
+      .then((json) => {
         $loader.classList.add('none');
         $response.classList.remove('none');
         $form.reset();
       })
-      .catch(err => {
-        /* console.log(err); */
-        let message = err.statusText || 'Ocurrio un error al enviar, intenta nuevamente';
+      .catch((err) => {
+        let message =
+          err.statusText || 'Ocurrio un error al enviar, intenta nuevamente';
         $response.innerHTML = `<p>Error: ${err.status}: ${message}<p/>`;
       })
       .finally(() => {

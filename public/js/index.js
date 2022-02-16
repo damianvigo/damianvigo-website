@@ -1,5 +1,5 @@
 import darkMode from './components/darkMode.js';
-import stickyFooter from './components/sticky_footer.js';
+import stickyHeader from './components/sticky_header.js';
 import hamburguerMenu from './components/hamburguer_menu.js';
 import scrollTopButton from './components/scroll-boton.js';
 import searchFilters from './components/search_filter.js';
@@ -12,7 +12,7 @@ const w = window;
 
 d.addEventListener('DOMContentLoaded', (e) => {
   darkMode('#switch');
-  stickyFooter('.header');
+  stickyHeader('.header');
   searchFilters('.card-filter-input', '.cards-filter__card');
   scrollTopButton('.scroll-top-btn');
   validationForm();

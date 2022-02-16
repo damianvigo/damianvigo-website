@@ -1,7 +1,7 @@
 const d = document,
   w = window;
 
-export default function sticky(header) {
+export default function stickyHeader(header) {
   const $head = d.querySelector(header);
 
   w.addEventListener('scroll', (e) => {

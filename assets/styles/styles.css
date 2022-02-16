@@ -41,6 +41,10 @@ html {
   overflow-x: hidden;
 }
 
+body {
+  overflow-x: hidden;
+}
+
 *,
 *::after,
 *::before {
@@ -305,8 +309,8 @@ body.dark .header.sticky {
 }
 
 .header__menu-ul {
-  display: flex;
-  flex-direction: column;
+  /*  display: flex;
+  flex-direction: column; */
   list-style: none;
   display: none;
 }
